@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html data-lt-installed="true" class=" jlfauf idc0_350"><head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="shortcut icon" href="https://steamcdn-a.akamaihd.net/apps/tf2/blog/images/favicon.ico">
+
+	<title>Team Fortress - Catch-Up Comic</title>
+
+	<link href="Traduzido/comicviewer.css" rel="stylesheet" type="text/css">
+	<link href="Traduzido/main.css" rel="stylesheet" type="text/css">
+
+	<style>
+	body {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	}
+
+	.cvComicContainer {
+		cursor: pointer;
+		display: none;	/* Fade in on load */
+	}
+
+	#Comic
+	{
+		background-color: #000;
+	}
+
+	#cvLoader {
+		display: none;
+	}
+
+	#cvOverlay {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-color: #000000;
+		display: block;
+		margin: 0 auto;
+		opacity: 0;
+	}
+
+	#cvErrorOverlay {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #000000;
+		display: none;
+		margin: 0 auto;
+		opacity: .5;
+		z-index: 2;
+	}
+
+	.cvImg {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+	}
+
+	#Comic:-webkit-full-screen, #Comic.html5-fullscreen-api, #Comic.-moz-full-screen
+	{
+		margin-top: auto;
+		margin-bottom: auto;
+		display: block;
+		top: 0px;
+		left: 0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#FullScreenComic
+	{
+		display: none;
+		top: 0px;
+		position: absolute;
+		right: 0px;
+		width: 25px;
+		height: 25px;
+		margin: 10px;
+		background-image: url("https://steamcdn-a.akamaihd.net/apps/tf2/common/images/comicviewer/fullscreen.png");
+		background-size: contain;
+		z-index: 9999;
+	}
+
+	.html5-fullscreen-api #FullScreenComic
+	{
+		background-image: url("https://steamcdn-a.akamaihd.net/apps/tf2/common/images/comicviewer/nofullscreen.png");
+	}
+
+	#Comic:-webkit-full-screen #FullScreenComic
+	{
+		background-image: url("https://steamcdn-a.akamaihd.net/apps/tf2/common/images/comicviewer/nofullscreen.png");
+	}
+
+	#Comic:-moz-full-screen #FullScreenComic
+	{
+		background-image: url("https://steamcdn-a.akamaihd.net/apps/tf2/common/images/comicviewer/nofullscreen.png");
+	}
+	</style>
+
+	<script type="text/javascript" async="" src="Traduzido/google-analytics_ga.js"></script><script type="text/javascript" src="Traduzido/jquery.min.js"></script>
+	<script type="text/javascript" src="Traduzido/jquery.utils.lite.min.js"></script>
+	<script type="text/javascript" src="Traduzido/jquery.ba-bbq.min.js"></script>
+	<script type="text/javascript" src="Traduzido/jquery.imagesloaded.min.js"></script>
+	<script type="text/javascript" src="Traduzido/spin.min.js"></script><style></style>
+	<script type="text/javascript" src="Traduzido/jquery.comicviewer.js"></script>
+
+	<script type="text/javascript">
+
+		$(
+			function()
+			{
+				$( '#Comic' ).comicViewer(
+					{
+						'last_frame'		: 20,
+						'base_url'		: 'https://steamcdn-a.akamaihd.net/apps/tf2/catchup/images/comic/2048x1536/',
+						'enable_ga'		: true,
+						'ga_page_base'		: '/catchup/#',
+						'last_frame_link'	: 'https://www.teamfortress.com/tf01_ring_of_fired/',
+						'on_frame_set_callback'	: function( iFrame )
+												  {
+												  }
+					}
+				);
+			}
+		);
+
+	</script>
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33822635-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body class="vsc-initialized">
+	<div id="loader">
+		<img src="Traduzido/tf_logo_over.png">
+		<img src="Traduzido/title_over.png">
+	</div>
+
+	<div id="content">
+		<div id="logo" onclick="window.location='https://www.teamfortress.com/'"></div>
+		<div id="title" onclick="window.location='https://www.teamfortress.com/catchup/'"></div>
+		<div id="Comic" class="cvComicContainer" style="display: block;">
+			<span id="FullScreenComic" class="fullScreenIcon" style="display: none;"></span>
+		<div id="cvOverlay" style="opacity: 0;"></div><div id="cvErrorOverlay"></div><img class="cvImg" src="Traduzido/10.png"><audio preload="auto" id="error_sound" style="display: none" src="Traduzido/null.htm"></audio></div>
+        <div id="infobar">
+			<div id="instructions">Clique na imagem ou aperte espaço para avançar</div>
+			<div id="links">
+				<a href="https://steamcdn-a.akamaihd.net/apps/tf2/catchup/download/catchupcomic.pdf?v=1">Baixar como PDF</a><br>
+				<a href="https://steamcdn-a.akamaihd.net/apps/tf2/catchup/download/catchupcomic.cbr?v=1">Baixar como CBR</a>
+			</div>
+		</div>
+	</div>
+
+
+
+<div id="lbOverlay" style="display: none;"></div><div id="lbCenter" style="display: none;"><div id="lbImage"><div style="position: relative;"><a id="lbPrevLink" href="#"></a><a id="lbNextLink" href="#"></a></div></div></div><div id="lbBottomContainer" style="display: none;"><div id="lbBottom"><a id="lbCloseLink" href="#"></a><div id="lbCaption"></div><div id="lbNumber"></div><div style="clear: both;"></div></div></div><div id="cvLoader"><img id="cv1" src="Traduzido/1.png"><img id="cv2" src="Traduzido/2.png"><img id="cv3" src="Traduzido/3.png"><img id="cv4" src="Traduzido/4.png"><img id="cv2" src="Traduzido/002.jpg"><img id="cv3" src="Traduzido/3.png"><img id="cv4" src="Traduzido/4.png"><img id="cv5" src="Traduzido/005.jpg"><img id="cv3" src="Traduzido/3.png"><img id="cv4" src="Traduzido/4.png"><img id="cv5" src="Traduzido/005.jpg"><img id="cv6" src="Traduzido/006.jpg"><img id="cv4" src="Traduzido/4.png"><img id="cv5" src="Traduzido/005.jpg"><img id="cv6" src="Traduzido/006.jpg"><img id="cv7" src="Traduzido/007.jpg"><img id="cv5" src="Traduzido/005.jpg"><img id="cv6" src="Traduzido/006.jpg"><img id="cv7" src="Traduzido/007.jpg"><img id="cv8" src="Traduzido/008.jpg"><img id="cv6" src="Traduzido/006.jpg"><img id="cv7" src="Traduzido/007.jpg"><img id="cv8" src="Traduzido/008.jpg"><img id="cv9" src="Traduzido/009.jpg"><img id="cv7" src="Traduzido/007.jpg"><img id="cv8" src="Traduzido/008.jpg"><img id="cv9" src="Traduzido/009.jpg"><img id="cv10" src="Traduzido/010.jpg"><img id="cv8" src="Traduzido/008.jpg"><img id="cv9" src="Traduzido/009.jpg"><img id="cv10" src="Traduzido/010.jpg"><img id="cv11" src="Traduzido/011.jpg"><img id="cv9" src="Traduzido/009.jpg"><img id="cv10" src="Traduzido/010.jpg"><img id="cv11" src="Traduzido/011.jpg"><img id="cv12" src="Traduzido/012.jpg"><img id="cv10" src="Traduzido/010.jpg"><img id="cv11" src="Traduzido/011.jpg"><img id="cv12" src="Traduzido/012.jpg"><img id="cv10" src="Traduzido/010.jpg"><img id="cv11" src="Traduzido/011.jpg"><img id="cv12" src="Traduzido/012.jpg"><img id="cv13" src="Traduzido/013.jpg"></div><div id="audd-recorder-marker" style="display: none;"></div></body></html>

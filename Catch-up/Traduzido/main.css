@@ -1,0 +1,122 @@
+body {
+	background-color: #161514;
+	margin: 0;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 14px;
+	background: #161514 url('https://steamcdn-a.akamaihd.net/apps/tf2/common/images/comicviewer/main_bg.jpg?v=2') no-repeat;
+	background-position:top center;
+	height: 1100px;
+}
+
+a:visited, a:active, a:link {
+	color: #cb8226;
+	text-decoration: none;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+	color: #ffa430;
+}
+
+#loader {
+	opacity: 0;
+	width: 0;
+	height: 0;
+	position: absolute;
+}
+
+#content {
+	position:relative;
+	margin: 0 auto;
+	width: 1024px;
+}
+
+#logo {
+	cursor: pointer;
+	position: relative;
+	left: 0px;
+	top: 28px;
+	background: url('https://steamcdn-a.akamaihd.net/apps/tf2/common/images/comicviewer/tf_logo.png') no-repeat;
+	width: 272px;
+	height: 70px;
+	float: left;
+
+	-webkit-transition: background .1s ease-in;  
+	-moz-transition: background .1s ease-in;  
+	-o-transition: background .1s ease-in; 
+}
+
+#logo:hover {
+	background: url('https://steamcdn-a.akamaihd.net/apps/tf2/common/images/comicviewer/tf_logo_over.png') no-repeat;
+}
+
+#title {
+	cursor: pointer;
+	position: relative;
+	top: 37px;
+	background: url('/Catch-up/Traduzido/title.png') no-repeat;
+	width: 443px;
+	height: 43px;
+	float: right;
+
+	-webkit-transition: background .1s ease-in;  
+	-moz-transition: background .1s ease-in;  
+	-o-transition: background .1s ease-in; 
+}
+
+#title:hover {
+	background: url('/Catch-up/Traduzido/title_over.png') no-repeat;
+}
+
+#infobar {
+	position: absolute;
+	width: 1024px;
+	margin: 0 auto;
+	top: 900px;
+}
+
+#instructions {
+	background: url('https://steamcdn-a.akamaihd.net/apps/tf2/common/images/comicviewer/infobar.png') no-repeat;
+	width: 488px;
+	height: 72px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 21px;
+	font-size:20px;
+}
+
+#links {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-top: 10px;
+	line-height: 24px;
+	font-size: 16px;
+}
+
+#Comic {
+	cursor: pointer;
+	position: relative;
+	top: 109px;
+	width: 1024px;
+	height: 768px;
+	margin: 0 auto;
+	display: none;
+}
+
+#asmiss_link {
+	display:block;
+	position:absolute;
+	width:230px;
+	height:40px;
+	top:830px;
+	left:510px;
+	z-index:200;
+}
+
+
+
+
