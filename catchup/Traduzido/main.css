@@ -57,7 +57,7 @@ a:hover {
 	cursor: pointer;
 	position: relative;
 	top: 37px;
-	background: url('/Catch-up/Traduzido/title.png') no-repeat;
+	background: url('title.png') no-repeat;
 	width: 443px;
 	height: 43px;
 	float: right;
@@ -68,7 +68,7 @@ a:hover {
 }
 
 #title:hover {
-	background: url('/Catch-up/Traduzido/title_over.png') no-repeat;
+	background: url('title_over.png') no-repeat;
 }
 
 #infobar {
