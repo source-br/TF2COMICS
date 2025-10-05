@@ -1,0 +1,230 @@
+/*CSS for comics page for tf2*/
+
+/*CSS file for the new movies page*/
+
+html, body, * {
+	font-family:arial,helvetica,sans-serif;
+	font-size:14px;
+}
+
+body {
+	background-color:#2e2a28;
+	background-image:url('sp_repeat_bg.jpg');
+	background-repeat:repeat-y;
+	background-position:center;
+	margin:0;
+	padding:0;
+}
+
+a,a:hover,a:visited,a:active {
+	color:#b35215;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+img{
+	border: 0;
+}
+
+#pageContainer {
+	background-image:url('sp_top_bg.jpg');
+	background-repeat:no-repeat;
+	background-position:top center;
+	text-align:center;
+	min-height:1023px;
+}
+#centerFooter {
+	background-image:url('sp_bottom_bg.jpg');
+	background-repeat:no-repeat;
+	background-position:top center;
+	text-align:center;
+	height:218px;
+}
+#footerContainer {
+	width:984px;
+	height:52px;
+	margin:auto;
+	text-align:left;
+}
+
+#centerColumn {
+	width:984px;
+	margin:auto;
+	text-align:left;
+}
+
+#primaryHeaderArea {
+	height:103px;
+	width:984px;
+	position:relative;
+	overflow:visible;
+}
+
+#headerAreaImage {
+	position:absolute;
+	top:0;
+	left:0;
+	width:984px;
+	height:103px;
+	z-index:10;
+}
+#spNavMenu {
+	position:absolute;
+	top:45px;
+	left:342px;
+	width:520px;
+	height:28px;
+	z-index:999;
+}
+#logoLink {
+	position:absolute;
+	top:30px;
+	left:70px;
+	z-index:999;
+}
+
+#centerColContent {
+	width:888px;
+	position:relative;
+	padding:0px 48px;
+	background-image:url('comics_sub_bg.jpg');
+	background-position:top center;
+	background-repeat:no-repeat;
+}
+
+.aHoverVertShift {
+	display:block;
+	float:left;
+	background-position:top;
+	background-repeat:no-repeat;
+}
+.aHoverVertShift:hover {
+	background-position:bottom;
+}
+#sp_menu_movies,#sp_menu_comics,#sp_menu_history,#sp_menu_artwork {
+	height:28px;
+}
+#sp_menu_home {
+	background-image:url('sp_menu_home.png');
+}
+#sp_menu_movies {
+	background-image:url('sp_menu_movies.png');
+}
+#sp_menu_comics {
+	background-image:url('sp_menu_comics.png');
+}	
+#sp_menu_history {
+	background-image:url('sp_menu_history.png');
+}	
+#sp_menu_artwork {
+	background-image:url('sp_menu_artwork.png');
+}	
+
+ul {
+	color:#5c5c5c;
+	list-style-type: none;
+	line-height:20px;
+	margin:0;
+	padding:0;
+	list-style-position: outside;
+	margin-left: 0;
+}
+li {
+		margin:0;
+		padding:0;
+		padding-left:40px;
+		padding-bottom:15px;
+		background: url('blog_arrow.png') no-repeat 0px 3px;
+
+}
+#navNewer {
+	float:right;
+}
+
+#blurb {
+	position:absolute;
+	top:63px;
+	width:535px;
+	left:356px;
+	line-height:20px;
+}
+#centerColContent {
+	margin-top:21px;
+	padding-top:250px;
+}
+
+
+
+
+
+.caption_main, .caption_date{
+	display: block;
+	margin: 0 5px;
+	color: #3b3632;
+}
+
+.caption_main{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.caption_mobile a {
+	font-size: 12px;
+	margin-left: 5px;
+	border-radius: 5px;
+	padding: 3px 5px 2px 4px;
+	border: 1px solid rgb(179, 82, 21);
+	background-color: #fff;
+	color: rgb(179, 82, 21);
+}
+.caption_mobile a:hover {
+	text-decoration: none;
+	background-color: rgb(179, 82, 21);
+	color: #fff;
+}
+
+.caption_date{
+	font-size: 12px;
+}
+
+.caption_main a{
+	text-decoration: none;
+	color: #3b3632;
+}
+
+.comingsoon{
+	color: #999999;
+}
+
+/*layout for the comics "table" (which is NOT a table)*/
+#comics_container,#saxton_container{
+	width:888px;
+	padding-left:12px;
+	margin-top:30px;
+
+}
+#saxton_container {
+	margin-bottom:250px;
+	padding-left:12px;
+}
+
+.comic_box{
+	margin: 10px 0;
+	height: 270px;
+	width: 214px;
+	float: left;
+	
+}
+
+#covers{
+	padding:12px 0px 20px 0px;
+}
+
+img#update {
+	margin-top: 30px;
+}
+
