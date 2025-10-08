@@ -1,0 +1,1173 @@
+@charset "utf-8";
+/* CSS Document */
+p {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color:#bbaca5;
+	/*background-color:#3f2c28; */
+	padding:0;
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#mainContainer {
+	background-image:url(images/main_bg.jpg);
+	background-repeat:repeat-x;
+	background-color:#bbaca5;
+	padding:0;
+	margin:0;
+}
+
+#pageContainer {
+	width:820px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000000;
+	padding:0;
+	margin:0;
+	line-height:18px;
+	position:relative;
+}
+
+#homeLink {
+	position:absolute;
+	top:37px;
+	left:19px;
+}
+
+#dayNav {
+	position:absolute;
+	right:18px;
+	top:28px;
+	font-size:22px;
+	text-align:right;
+	font-weight:bold;
+	color:#665f52;
+}
+
+#dayNav a {
+	color:#faeac9;
+	font-weight:bold;
+	font-size:22px;
+	text-decoration:none;
+}
+
+#dayNav a:hover {
+	color:#FFFFFF;
+}
+
+.pike {
+	font-size:26px;
+}
+
+	
+
+#footer {
+	background-image:url(images/footerBG.jpg);
+	height:60px;
+	width:820px;
+}
+
+#footerLogo {
+	padding-left:20px;
+	width:111px;
+	float:left;
+}
+
+#copyright {
+	float:right;
+	color:#a3a3a3;
+	font-size:10px;
+	text-align:left;
+	width:660px;
+	padding-right:20px;
+	padding-top:8px;
+	line-height:normal;
+}
+
+.footerShadowBottom {
+	height:60px;
+	background-image:url(images/footerShadowBottom.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+}
+
+/* Language Select */
+#languageSelect {
+	padding-top:8px;
+	color:#9c8e8a;
+	height:100px; 
+}
+
+#languageSelect a {
+	color:#5a4744;
+	font-weight:bold;
+	font-size:14px;
+	text-decoration:none;
+}
+
+#languageSelect a:hover {
+	color:#FFFFFF;
+}
+
+#forumLink {
+	padding-top:14px;
+}
+
+#forumLink a {
+	text-decoration:none;
+	color:#5a4744;
+	font-size:22px;
+	font-weight:bold;
+}
+
+#forumLink a:hover {
+	color:#FFFFFF;
+}
+
+#digg {
+	padding-top:12px;
+
+}
+
+
+/* Day 01 */
+
+#day01_background {
+	background-image:url(images/01_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1176px;
+}
+
+#day01_background_fr {
+	background-image:url(images/french/01_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1176px;
+}
+
+#day01_background_de {
+	background-image:url(images/german/01_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1176px;
+}
+
+#day01_background_it {
+	background-image:url(images/italian/01_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1176px;
+}
+
+#day01_background_es {
+	background-image:url(images/spanish/01_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1176px;
+}
+
+#day01_background_ru {
+	background-image:url(images/russian/01_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1176px;
+}
+
+#day01_background_sv {
+	background-image:url(images/swedish/01_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1176px;
+}
+
+
+#day01_content {
+	color:#c9c9c9;
+	width:498px;
+	padding-top:632px;
+	padding-left:36px;
+}
+
+/* Day 02 */
+
+#mainContainer_02 {
+	background-image:url(images/02_main_bg.jpg);
+	background-repeat:repeat-x;
+	background-color:#4d4f51;
+	padding:0;
+	margin:0;
+}
+
+#day02_content1 {
+	color:#c9c9c9;
+	width:510px;
+	padding-top:448px;
+	padding-left:31px;
+}
+
+#day02_content2 {
+	color:#c9c9c9;
+	width:510px;
+	padding-top:564px;
+	padding-left:31px;
+}
+
+#day02_content2_fr {
+	color:#c9c9c9;
+	width:510px;
+	padding-top:615px;
+	padding-left:31px;
+}
+
+#day02_background {
+	background-image:url(images/02_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1312px;
+}
+
+#day02_background_fr {
+	background-image:url(images/french/02_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1312px;
+}
+
+#day02_background_de {
+	background-image:url(images/german/02_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1312px;
+}
+
+#day02_background_it {
+	background-image:url(images/italian/02_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1312px;
+}
+
+#day02_background_es {
+	background-image:url(images/spanish/02_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1312px;
+}
+
+#day02_background_ru {
+	background-image:url(images/russian/02_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1312px;
+}
+
+#day02_background_sv {
+	background-image:url(images/swedish/02_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1312px;
+}
+
+#day02_bottom {
+	background-image:url(images/02_bottom.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1260px;
+}
+
+#day02_bottom_fr {
+	background-image:url(images/french/02_bottom.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1260px;
+}
+
+#day02_bottom_de {
+	background-image:url(images/german/02_bottom.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1260px;
+}
+
+#day02_bottom_it {
+	background-image:url(images/italian/02_bottom.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1260px;
+}
+
+#day02_bottom_es {
+	background-image:url(images/spanish/02_bottom.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1260px;
+}
+
+#day02_bottom_ru {
+	background-image:url(images/russian/02_bottom.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1260px;
+}
+
+#day02_bottom_sv {
+	background-image:url(images/swedish/02_bottom.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1260px;
+}
+
+#day02_footer {
+	background-image:url(images/02_footerBG.jpg);
+	height:60px;
+	width:820px;
+}
+
+.day02_footerShadowBottom {
+	height:60px;
+	background-image:url(images/02_footerShadowBottom.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+}
+
+#day02_languageSelect {
+	padding-top:8px;
+	color:#8a8d91;
+}
+
+#day02_languageSelect a {
+	color:#b7babf;
+	font-weight:bold;
+	font-size:14px;
+	text-decoration:none;
+}
+
+#day02_languageSelect a:hover {
+	color:#FFFFFF;
+}
+
+
+/* Day 03 */
+
+#day03_content {
+	color:#c9c9c9;
+	width:500px;
+	padding-top:632px;
+	padding-left:42px;
+}
+
+#day03_background {
+	background-image:url(images/03_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:926px;
+}
+
+#day03_background_fr {
+	background-image:url(images/french/03_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:926px;
+}
+
+#day03_background_de {
+	background-image:url(images/german/03_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:926px;
+}
+#day03_background_it {
+	background-image:url(images/italian/03_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:926px;
+}
+
+#day03_background_es {
+	background-image:url(images/spanish/03_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:926px;
+}
+#day03_background_ru {
+	background-image:url(images/russian/03_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:926px;
+}
+
+#day03_background_sv {
+	background-image:url(images/swedish/03_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:926px;
+}
+
+/* Day 04 */
+
+#mainContainer_04 {
+	background-image:url(images/04_main_bg.jpg);
+	background-repeat:repeat-y;
+	background-color:#161516;
+	background-position:center;
+	padding:0;
+	margin:0;;
+}
+
+#day04_footer {
+	background-image:url(images/04_footerBG.jpg);
+	height:60px;
+	width:820px;
+}
+
+.day04_footerShadowBottom {
+	height:120px;
+	background-image:url(images/04_footerShadowBottom.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+}
+
+#day04_languageSelect {
+	padding-top:8px;
+	color:#8a8d91;
+}
+
+#day04_languageSelect a {
+	color:#b7babf;
+	font-weight:bold;
+	font-size:14px;
+	text-decoration:none;
+}
+
+#day04_languageSelect a:hover {
+	color:#FFFFFF;
+}
+
+#day04_background {
+	background-image:url(images/04_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:2426px;
+}
+#day04_background_fr {
+	background-image:url(images/french/04_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:2426px;
+}
+#day04_background_de {
+	background-image:url(images/german/04_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:2426px;
+}
+#day04_background_it {
+	background-image:url(images/italian/04_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:2426px;
+}
+#day04_background_es {
+	background-image:url(images/spanish/04_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:2426px;
+}
+#day04_background_ru {
+	background-image:url(images/russian/04_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:2426px;
+}
+#day04_background_sv {
+	background-image:url(images/swedish/04_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:2426px;
+}
+
+/* Day 05 */
+
+#videoShadow {
+	margin-left:29px;
+	padding-bottom:2px;
+	padding-top:203px;
+	width:768px;
+	height:449;
+}
+
+#videoContainer {
+	margin-left:7px;
+	padding-top:7px;
+	padding-bottom:7px;
+}
+
+#download {
+	position:absolute;
+	top:654px;
+	right:38px;
+	text-align:right;
+}
+
+#download a {
+	color:#faeac9;
+	font-weight:bold;
+	font-size:14px;
+	text-decoration:none;
+}
+
+#download a:hover {
+	color:#FFFFFF;
+}
+
+#day05_content {
+	color:#c9c9c9;
+	width:488px;
+	padding-top:170px;
+	padding-left:289px;
+	line-height:18px;
+}
+
+#day05_background {
+	background-image:url(images/05_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1072px;
+}
+
+#day05_background_fr {
+	background-image:url(images/french/05_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1072px;
+}
+
+#day05_background_de {
+	background-image:url(images/german/05_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1072px;
+}
+
+#day05_background_it {
+	background-image:url(images/italian/05_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1072px;
+}
+
+#day05_background_es {
+	background-image:url(images/spanish/05_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1072px;
+}
+
+#day05_background_ru {
+	background-image:url(images/russian/05_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1072px;
+}
+
+#day05_background_sv {
+	background-image:url(images/swedish/05_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1072px;
+}
+
+/* Day 05 Achievements */
+
+p {
+	color:#c9c9c9;
+	line-height:18px;
+}
+
+#achievements {
+	background-image:url(images/05_bottom_bg.jpg);
+	background-repeat:repeat-y;
+	width:820px;
+	text-align:left;
+}
+
+#achievementsLeft {
+	padding-top:24px;
+	padding-left:26px;
+	width:386px;
+}
+
+#achievementsRight {
+	padding-top:24px;
+	float:right;
+	width:400px;
+}
+
+.achievementBlock {
+	height:64px;
+	width:370px;
+	padding-bottom:10px;
+}
+
+.desc {
+	float:right;
+	width:300px;
+	text-align:left;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+#achievementDL {
+	height:36px;
+	background-image:url(images/03_achievement_dl_bg.gif)	
+}
+
+#achievementDL a {
+	font-weight:bold;
+	color:#000000;
+}
+
+#achievementDL a:hover {
+	color:#FFFFFF;
+}
+
+.achievementsEnd {
+	margin:0;
+	padding:0px;
+}
+
+#achievement_footer {
+	height:72px;
+	background-image:url(images/05_bottom_footer_bg.jpg);
+	background-repeat:no-repeat;
+}
+
+#download_icons {
+	padding-top:30px;
+	text-align:center;
+}
+
+#download_icons a {
+	color:#faeac9;
+	font-weight:bold;
+	font-size:14px;
+	text-decoration:none;
+}
+
+#download_icons a:hover {
+	color:#FFFFFF;
+}
+
+#valveheader {
+	padding-top:12px;
+	padding-bottom:20px;
+}
+
+#valveachieve {
+	padding-left:26px;
+	width:386px;
+}
+
+.unlocked {
+	color:#FFFFFF;
+}
+
+/* Day 06 */
+
+#day06_content {
+	color:#c9c9c9;
+	width:500px;
+	padding-top:906px;
+	padding-left:279px;
+	line-height:18px;
+}
+
+#day06_background {
+	background-image:url(images/06_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1526px;
+}
+
+#day06_background_fr {
+	background-image:url(images/french/06_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1526px;
+}
+
+#day06_background_de {
+	background-image:url(images/german/06_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1526px;
+}
+
+#day06_background_it {
+	background-image:url(images/italian/06_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1526px;
+}
+
+#day06_background_es {
+	background-image:url(images/spanish/06_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1526px;
+}
+
+#day06_background_ru {
+	background-image:url(images/russian/06_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1526px;
+}
+
+#day06_background_sv {
+	background-image:url(images/swedish/06_background.jpg);
+	background-repeat:no-repeat;
+	width:820px;
+	height:1526px;
+}
+
+/* Day 07 */
+
+#homeLink_07 {
+	position:absolute;
+	top:37px;
+	left:49px;
+}
+
+#dayNav_07 {
+	position:absolute;
+	right:48px;
+	top:28px;
+	font-size:22px;
+	text-align:right;
+	font-weight:bold;
+	color:#665f52;
+}
+
+#dayNav_07 a {
+	color:#faeac9;
+	font-weight:bold;
+	font-size:22px;
+	text-decoration:none;
+}
+
+#dayNav_07 a:hover {
+	color:#FFFFFF;
+}
+
+#mainContainer_07 {
+	background-image:url(images/07_main_bg.jpg);
+	background-repeat:repeat-y;
+	background-color:#2c2c27;
+	background-position:center;
+	padding:0;
+	margin:0;;
+}
+
+#pageContainer_07 {
+	width:880px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#2c2c27;
+	padding:0;
+	margin:0;
+	line-height:18px;
+	position:relative;
+}
+
+#day07_comic {
+	position: absolute;
+	top: 800px;
+	left:40px;
+}
+
+#day07_footer {
+	background-image:url(images/07_footerBG.jpg);
+	height:60px;
+	width:820px;
+}
+
+.day07_footerShadowBottom {
+	height:120px;
+	background-image:url(images/07_footerShadowBottom.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+}
+
+#day07_content {
+	color:#c9c9c9;
+	width:500px;
+	padding-top:660px;
+	padding-left:280px;
+	line-height:18px;
+}
+
+.subnote	{
+	color:#777777;
+}
+
+#achievements_07 {
+	background-image:url(images/07_bottom_bg.jpg);
+	background-repeat:repeat-y;
+	width:880px;
+	text-align:left;
+}
+
+#achievementsLeft_07 {
+	padding-top:8px;
+	padding-left:56px;
+	width:386px;
+}
+
+#achievementsRight_07 {
+	padding-top:8px;
+	float:right;
+	width:386px;
+	padding-right:40px;
+}
+
+#achievement_footer_07 {
+	height:86px;
+	background-image:url(images/07_prefooter.jpg);
+	background-repeat:no-repeat;
+}
+
+
+#day07_background {
+	background-image:url(images/07_background.jpg);
+	background-repeat:no-repeat;
+	width:880px;
+	height:2078px;
+}
+
+#day07_background_fr {
+	background-image:url(images/french/07_background.jpg);
+	background-repeat:no-repeat;
+	width:880px;
+	height:2078px;
+}
+
+#day07_background_de {
+	background-image:url(images/german/07_background.jpg);
+	background-repeat:no-repeat;
+	width:880px;
+	height:2078px;
+}
+
+#day07_background_it {
+	background-image:url(images/italian/07_background.jpg);
+	background-repeat:no-repeat;
+	width:880px;
+	height:2078px;
+}
+
+#day07_background_es {
+	background-image:url(images/spanish/07_background.jpg);
+	background-repeat:no-repeat;
+	width:880px;
+	height:2078px;
+}
+
+#day07_background_ru {
+	background-image:url(images/russian/07_background.jpg);
+	background-repeat:no-repeat;
+	width:880px;
+	height:2078px;
+}
+
+#day07_background_sv {
+	background-image:url(images/swedish/07_background.jpg);
+	background-repeat:no-repeat;
+	width:880px;
+	height:2078px;
+}
+
+/* Day 08 */
+
+#homeLink_08 {
+	position:absolute;
+	top:37px;
+	left:89px;
+}
+
+#dayNav_08 {
+	position:absolute;
+	right:88px;
+	top:28px;
+	font-size:22px;
+	text-align:right;
+	font-weight:bold;
+	color:#665f52;
+}
+
+#dayNav_08 a {
+	color:#faeac9;
+	font-weight:bold;
+	font-size:22px;
+	text-decoration:none;
+}
+
+#dayNav_08 a:hover {
+	color:#FFFFFF;
+}
+
+#pageContainer_08 {
+	width:960px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#2c2c27;
+	padding:0;
+	margin:0;
+	line-height:18px;
+	position:relative;
+}
+
+#day08_background {
+	background-image:url(images/08_background.jpg);
+	background-repeat:no-repeat;
+	width:960px;
+	height:866px;
+}
+
+#day08_background_fr {
+	background-image:url(images/french/08_background.jpg);
+	background-repeat:no-repeat;
+	width:960px;
+	height:866px;
+}
+
+#day08_background_de {
+	background-image:url(images/german/08_background.jpg);
+	background-repeat:no-repeat;
+	width:960px;
+	height:866px;
+}
+
+#day08_background_it {
+	background-image:url(images/italian/08_background.jpg);
+	background-repeat:no-repeat;
+	width:960px;
+	height:866px;
+}
+
+#day08_background_es {
+	background-image:url(images/spanish/08_background.jpg);
+	background-repeat:no-repeat;
+	width:960px;
+	height:866px;
+}
+
+#day08_background_ru {
+	background-image:url(images/russian/08_background.jpg);
+	background-repeat:no-repeat;
+	width:960px;
+	height:866px;
+}
+
+#day08_background_sv {
+	background-image:url(images/swedish/08_background.jpg);
+	background-repeat:no-repeat;
+	width:960px;
+	height:866px;
+}
+
+
+
+/* WEEKEND */
+#weekendSection {
+	background-color:#3f2c28;
+}
+
+#weekend {
+	width:820px;
+	height:200px;
+	background-image:url(images/weekend/weekend_bg.jpg);
+	background-repeat:no-repeat;
+	margin:0;
+	padding:0;
+	text-align:left;
+	position:relative;
+}
+
+#weekend_fr {
+	width:820px;
+	height:200px;
+	background-image:url(images/french/weekend/weekend_bg.jpg);
+	background-repeat:no-repeat;
+	margin:0;
+	padding:0;
+	text-align:left;
+}
+
+#weekend_de {
+	width:820px;
+	height:200px;
+	background-image:url(images/german/weekend/weekend_bg.jpg);
+	background-repeat:no-repeat;
+	margin:0;
+	padding:0;
+	text-align:left;
+}
+
+#weekend_it {
+	width:820px;
+	height:200px;
+	background-image:url(images/italian/weekend/weekend_bg.jpg);
+	background-repeat:no-repeat;
+	margin:0;
+	padding:0;
+	text-align:left;
+}
+
+#weekend_es {
+	width:820px;
+	height:200px;
+	background-image:url(images/spanish/weekend/weekend_bg.jpg);
+	background-repeat:no-repeat;
+	margin:0;
+	padding:0;
+	text-align:left;
+}
+
+#weekend_ru {
+	width:820px;
+	height:200px;
+	background-image:url(images/russian/weekend/weekend_bg.jpg);
+	background-repeat:no-repeat;
+	margin:0;
+	padding:0;
+	text-align:left;
+}
+
+#weekend_sv {
+	width:820px;
+	height:200px;
+	background-image:url(images/swedish/weekend/weekend_bg.jpg);
+	background-repeat:no-repeat;
+	margin:0;
+	padding:0;
+	text-align:left;
+}
+
+#button {
+	padding-top:98px;
+	padding-left:26px;
+	width:270px;
+	float:left;
+}
+
+#weekendInfo {
+	float:left;
+	width:510px;
+	text-align:left;
+	padding-right:12px;
+	padding-top:102px;
+	color:#fff5c7;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+}
+
+#weekendInfo_small {
+	float:left;
+	width:510px;
+	text-align:left;
+	padding-right:12px;
+	padding-top:108px;
+	color:#fff5c7;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+}
+
+.weekendInfoBold {
+	font-weight:bold;
+}
+
+#weekendInfo a {
+	color:#ffe566;
+}
+
+#weekendInfo a:hover {
+	color:#FFFFFF;
+}
+
+#weekendInfo_small a {
+	color:#ffe566;
+}
+
+#weekendInfo_small a:hover {
+	color:#FFFFFF;
+}
+
+#weekendSale {
+position:absolute;
+top:175px;
+right:10px;
+
+}
+
+/* Day 09 */
+
+#day09_background {
+	background-image:url(images/09_background.jpg);
+	background-repeat:no-repeat;
+	width:960px;
+	height:1750px;
+}
+
+#day09_background_fr {
+	background-image:url(images/french/09_background.jpg);
+	background-repeat:no-repeat;
+	width:960px;
+	height:1750px;
+}
+
+#day09_background_de {
+	background-image:url(images/german/09_background.jpg);
+	background-repeat:no-repeat;
+	width:960px;
+	height:1750px;
+}
+
+#day09_background_it {
+	background-image:url(images/italian/09_background.jpg);
+	background-repeat:no-repeat;
+	width:960px;
+	height:1750px;
+}
+
+#day09_background_es {
+	background-image:url(images/spanish/09_background.jpg);
+	background-repeat:no-repeat;
+	width:960px;
+	height:1750px;
+}
+
+#day09_background_ru {
+	background-image:url(images/russian/09_background.jpg);
+	background-repeat:no-repeat;
+	width:960px;
+	height:1750px;
+}
+
+#day09_background_sv {
+	background-image:url(images/swedish/09_background.jpg);
+	background-repeat:no-repeat;
+	width:960px;
+	height:1750px;
+}
